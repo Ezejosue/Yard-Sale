@@ -45,24 +45,15 @@ body {
   width: 300px;
 }
 
-.logo {
-  width: 150px;
-  margin-bottom: 48px;
-  justify-self: center;
-  display: none;
+.title {
+  font-size: var(--lg);
+  margin-bottom: 32px;
+  text-align: start;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-}
-
-.form a {
-  color: var(--hospital-green);
-  font-size: var(--sm);
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 52px;
 }
 
 .label {
@@ -81,20 +72,10 @@ body {
   margin-bottom: 12px;
 }
 
-.input-email {
-  margin-bottom: 22px;
-}
-
-.primary-button {
-  background-color: var(--hospital-green);
-  border-radius: 8px;
-  border: none;
-  color: var(--white);
-  width: 100%;
-  cursor: pointer;
-  font-size: var(--md);
-  font-weight: bold;
-  height: 50px;
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
 }
 
 .secondary-button {
@@ -121,7 +102,6 @@ body {
     display: block;
   }
 }
-
 @media (min-width: 641px) {
   .secondary-button {
     bottom: 300px;
